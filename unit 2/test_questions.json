@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "question": "What was the primary objective of the Apollo 11 mission?",
+    "mission": "apollo_11",
+    "category": "mission_report",
+    "reference_answer": "The primary objective of Apollo 11 was to land humans on the Moon and return them safely to Earth, fulfilling President Kennedy's challenge to achieve this goal before the end of the 1960s."
+  },
+  {
+    "id": 2,
+    "question": "What caused the oxygen tank explosion on Apollo 13?",
+    "mission": "apollo_13",
+    "category": "technical",
+    "reference_answer": "An electrical fault caused the stirring fan inside oxygen tank 2 in the service module to ignite insulation, triggering an explosion that ruptured the tank and disabled the spacecraft's main power and oxygen supply."
+  },
+  {
+    "id": 3,
+    "question": "What did the Apollo 11 crew say during the moonwalk?",
+    "mission": "apollo_11",
+    "category": "public_affairs_officer",
+    "reference_answer": "Neil Armstrong famously declared 'That's one small step for man, one giant leap for mankind' as he stepped onto the lunar surface. The PAO transcripts record extensive communications between the crew and Houston during the EVA."
+  },
+  {
+    "id": 4,
+    "question": "How did Mission Control guide the Apollo 13 crew safely back to Earth?",
+    "mission": "apollo_13",
+    "category": "technical",
+    "reference_answer": "Mission Control improvised a series of procedures including powering down the command module to save power, using the lunar module Aquarius as a lifeboat, and calculating a free-return trajectory that used the Moon's gravity to sling the spacecraft back toward Earth."
+  },
+  {
+    "id": 5,
+    "question": "What technical issues were recorded in the Apollo 11 command module transcripts?",
+    "mission": "apollo_11",
+    "category": "command_module",
+    "reference_answer": "The Apollo 11 command module transcripts recorded communications related to systems checks, navigation updates, telemetry data, and coordination with Mission Control throughout the trans-lunar injection, lunar orbit insertion, and trans-Earth return phases."
+  },
+  {
+    "id": 6,
+    "question": "What audio was captured from the Challenger STS-51L mission during launch?",
+    "mission": "challenger",
+    "category": "mission_audio",
+    "reference_answer": "The Challenger STS-51L mission audio transcripts captured communications between the crew and ground control during the final seconds before the vehicle broke apart 73 seconds after launch on January 28, 1986."
+  },
+  {
+    "id": 7,
+    "question": "What flight plan milestones were scheduled for the Apollo 11 mission?",
+    "mission": "apollo_11",
+    "category": "flight_plan",
+    "reference_answer": "The Apollo 11 flight plan scheduled key milestones including trans-lunar injection, mid-course corrections, lunar orbit insertion, powered descent initiation, landing in the Sea of Tranquility, EVA, lunar module ascent, command module rendezvous, and trans-Earth injection."
+  }
+]

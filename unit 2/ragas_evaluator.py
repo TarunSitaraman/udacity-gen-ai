@@ -15,6 +15,15 @@ except ImportError:
 
 def evaluate_response_quality(question: str, answer: str, contexts: List[str]) -> Dict[str, float]:
     """Evaluate response quality using RAGAS metrics"""
+    if not question or not isinstance(question, str) or not question.strip():
+        return {"error": "question must be a non-empty string"}
+    if not answer or not isinstance(answer, str) or not answer.strip():
+        return {"error": "answer must be a non-empty string"}
+    if not contexts or not isinstance(contexts, list) or len(contexts) == 0:
+        return {"error": "contexts must be a non-empty list of strings"}
+    if not all(isinstance(c, str) and c.strip() for c in contexts):
+        return {"error": "all contexts must be non-empty strings"}
+
     if not RAGAS_AVAILABLE:
         return {"error": "RAGAS not available"}
     

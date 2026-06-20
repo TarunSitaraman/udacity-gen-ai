@@ -67,7 +67,7 @@ def format_context(documents: List[str], metadatas: List[Dict]) -> str:
     for i, (doc, meta) in enumerate(zip(documents, metadatas), 1):
         mission = meta.get("mission", "Unknown Mission").replace("_", " ").title()
         source = meta.get("source", "Unknown Source")
-        category = meta.get("category", "Unknown Category").replace("_", " ").title()
+        category = meta.get("document_category", "Unknown Category").replace("_", " ").title()
         
         header = f"[{i}] Mission: {mission} | Source: {source} | Category: {category}"
         context_parts.append(header)
